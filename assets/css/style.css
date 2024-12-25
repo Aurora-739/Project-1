@@ -7,7 +7,7 @@
 /*colours:
 red= #BB6464 --> main headings (h1)
 brown= #766161 --> (p text)
-blue= #87A7B3 --> less important headings (h2,3,4etc)
+blue= #2C363A --> less important headings (h2,3,4etc)
 grey= #F3EEE5 --> background colour
 green= #E1F1DD --> highlight text
 */
@@ -23,10 +23,20 @@ h1 {
     font-family: Fredericka the Great,serif;
 }
 
+h2, h3 {
+    color: #766161;
+    font-family: Cormorant Garamond, serif;
+    font-size: 2rem;
+}
+
+p {
+    color: #766161;
+    font-family: Cormorant Garamond, serif;
+}
+
 hr {
     color: #766161;
     margin-top: 2rem;
-    padding: 1rem;
 }
 
 li {
@@ -50,8 +60,12 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    position: fixed;
     justify-content: center;
+    background-color: #F3EEE5;
+    object-fit: cover;
+    font-family: Cormorant Garamond, serif;
+    padding-top: 2rem;
+
 }
 
 header a {
@@ -67,7 +81,85 @@ header a {
     margin-bottom: 1em;
 }
 
-
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    font-style: italic;
+}
+
+
+/*MAIN*/
+main {
+    /* MAKE MAIN ELEMENTS TAKE UP SPACE*/
+    flex: 1 0 auto;
+    padding-top: 2rem;
+}
+
+/* THE HERO IMAGE*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/the library.jpg") no-repeat center center/cover;
+    position: relative
+}
+
+#story {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#story h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+/*OPENING TIMES*/
+#opening-table {
+    font-family: Cormorant Garamond, serif;
+    max-width: fit-content;
+    margin-top: 64px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+}
+
+table, th, td {
+    border: 1px solid #766161;
+    border-collapse: collapse;
+  }
+
+th {
+    color: #BB6464;
+    font-size: x-large;
+}
+
+td {
+    color: #766161;
+    font-size: large;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/*FOOTER*/
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: #BB6464;
+}
+
+footer {
+    padding-top: 2rem;
+    flex-shrink: 0;
 }
