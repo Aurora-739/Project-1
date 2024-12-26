@@ -61,7 +61,6 @@ li {
     font-size: 4rem;
 }
 
-
 /*HEADER*/
 
 header {
@@ -74,7 +73,6 @@ header {
     object-fit: cover;
     font-family: Cormorant Garamond, serif;
     padding-top: 2rem;
-
 }
 
 header a {
@@ -106,7 +104,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/the library.jpg") no-repeat center center/cover;
+    background: url("../images/the-library.jpg") no-repeat center center/cover;
     position: relative
 }
 
@@ -139,7 +137,7 @@ main {
     padding-bottom: 2rem;
 }
 
-table,
+#opening-table table,
 th,
 td {
     border: 1px solid #766161;
@@ -170,11 +168,79 @@ td {
     padding: 5%;
     color: #BB6464;
 }
+#popular {
+    font-family: Cormorant Garamond, serif;
+    color: #766161;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#popular td {
+    border-collapse: collapse;
+    border-color: #F3EEE5;
+}
+
+#popular img {
+    width: 135px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* OUR BOOKS*/
+
+/*DONATIONS*/
+
+#donations {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: flex-start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#donations div {
+    padding: 2rem;
+    text-align: start;
+    align-items: auto;
+    flex-basis: 1rem;
+    flex-grow: 1;
+}
+
+#favs {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+#favs div {
+    padding: 2rem;
+    text-align: end;
+    align-items: auto;
+    flex-basis: 1rem;
+    flex-grow: 1;
+}
+
 
 /*FOOTER*/
-footer {
-    padding-top: 2rem;
-    flex-shrink: 0;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+#footer {
+    position: fixed;
+    padding: 2rem;
+    bottom: 0;
+    height: 2rem;
+    font-size: 2rem;
+    width: 100%;
+    box-sizing: content-box;
 }
 
 #social-media {
@@ -183,6 +249,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    width: 100%;
 }
 
 #social-media i {
