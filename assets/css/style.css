@@ -20,13 +20,22 @@ green= #E1F1DD --> highlight text
 
 h1 {
     color: #BB6464;
-    font-family: Fredericka the Great,serif;
+    font-family: Fredericka the Great, serif;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: #766161;
     font-family: Cormorant Garamond, serif;
     font-size: 2rem;
+}
+
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 p {
@@ -102,30 +111,40 @@ main {
 }
 
 #story {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
+
 }
 
-#story h2 {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+#story div {
+    color: #fafafa;
+    padding: 2rem;
+    text-align: center;
+    align-items: auto;
+    flex-basis: 1rem;
+    flex-grow: 1;
 }
+
 
 /*OPENING TIMES*/
 #opening-table {
     font-family: Cormorant Garamond, serif;
     max-width: fit-content;
     margin-top: 64px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #766161;
     border-collapse: collapse;
-  }
+}
 
 th {
     color: #BB6464;
@@ -137,14 +156,27 @@ td {
     font-size: large;
 }
 
-th, td {
+th,
+td {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
+/*AVAILABLE.HTML*/
+.fa-book-bookmark {
+    font-size: 1.5rem;
+    padding: 5%;
+    color: #BB6464;
+}
+
 /*FOOTER*/
+footer {
+    padding-top: 2rem;
+    flex-shrink: 0;
+}
+
 #social-media {
     text-align: center;
     padding: 20px 0;
@@ -154,12 +186,7 @@ th, td {
 }
 
 #social-media i {
-    font-size: 160%;
+    font-size: 2rem;
     padding: 5%;
     color: #BB6464;
-}
-
-footer {
-    padding-top: 2rem;
-    flex-shrink: 0;
 }
