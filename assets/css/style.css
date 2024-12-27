@@ -66,13 +66,15 @@ li {
     color: #766161;
     font-weight: bold;
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-delay: 100ms;
 }
 
 .hover:hover {
     color: #BB6464;
     text-decoration: underline;
 }
-
 /*HEADER*/
 
 header {
@@ -146,6 +148,10 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
+}
+
+#opening-table td:hover {
+    color: #BB6464;
 }
 
 #opening-table table,
