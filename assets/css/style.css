@@ -61,6 +61,18 @@ li {
     font-size: 4rem;
 }
 
+.hover {
+    font-family: Cormorant Garamond, serif;
+    color: #766161;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hover:hover {
+    color: #BB6464;
+    text-decoration: underline;
+}
+
 /*HEADER*/
 
 header {
