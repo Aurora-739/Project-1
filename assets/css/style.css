@@ -120,7 +120,7 @@ main {
     position: relative
 }
 
-#story {
+#home {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -129,7 +129,7 @@ main {
 
 }
 
-#story div {
+#home div {
     color: #fafafa;
     padding: 2rem;
     text-align: center;
@@ -137,7 +137,6 @@ main {
     flex-basis: 1rem;
     flex-grow: 1;
 }
-
 
 /*OPENING TIMES*/
 #opening-table {
