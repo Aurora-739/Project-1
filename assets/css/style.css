@@ -94,7 +94,7 @@ header a {
     color: #BB6464;
 }
 
-#nav {
+nav {
     /*ul on nav bar*/
     font-size: 1.25rem;
     letter-spacing: 4px;
@@ -140,6 +140,11 @@ main {
     flex-grow: 1;
 }
 
+#home video {
+    width: 800px;
+    height: auto;
+}
+
 /*OPENING TIMES*/
 #opening-table {
     font-family: Cormorant Garamond, serif;
@@ -148,6 +153,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
+    justify-content: center;
 }
 
 #opening-table td:hover {
@@ -274,3 +280,32 @@ body {
     padding: 5%;
     color: #BB6464;
 }
+
+/*MEDIA QUERIES!!!*/
+
+/* MEDIA QUERY -> PHONE SCREENS (320 PX AND UP) ----------------------------------------*/
+@media screen and (min-width: 320px) {
+
+    
+    #hero {
+        width: 100%;
+    }
+
+    #home video {
+        width: 300px;
+        height: auto;
+    }
+
+    
+}
+}
+
+/* MEDIA QUERY -> PHONE SCREENS (768 PX AND UP) ----------------------------------------*/
+@media screen and (min-width: 768px) {
+    #hero {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
