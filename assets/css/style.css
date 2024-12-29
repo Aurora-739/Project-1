@@ -12,8 +12,6 @@ grey= #F3EEE5 --> background colour
 green= #E1F1DD --> highlight text
 */
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
     background-color: #F3EEE5;
 }
@@ -75,6 +73,7 @@ li {
     color: #BB6464;
     text-decoration: underline;
 }
+
 /*HEADER*/
 
 header {
@@ -122,33 +121,37 @@ main {
     position: relative
 }
 
-#home {
+.home {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
-
 }
 
-#home div {
+.home div {
     color: #fafafa;
-    padding: 2rem;
+    padding-top: 2rem;
     text-align: center;
     align-items: auto;
     flex-basis: 1rem;
     flex-grow: 1;
 }
 
-#home video {
-    width: 800px;
+#wrap-vid {
+    width: 300px;
+    height: auto;
+}
+
+.home img {
+    width: 300px;
     height: auto;
 }
 
 /*OPENING TIMES*/
 #opening-table {
     font-family: Cormorant Garamond, serif;
-    max-width: fit-content;
+    max-width: 300px;
     margin-top: 64px;
     margin-left: auto;
     margin-right: auto;
@@ -165,6 +168,7 @@ th,
 td {
     border: 1px solid #766161;
     border-collapse: collapse;
+    width: fit-content;
 }
 
 th {
@@ -179,8 +183,8 @@ td {
 
 th,
 td {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
@@ -191,16 +195,24 @@ td {
     padding: 5%;
     color: #BB6464;
 }
+
 #popular {
     font-family: Cormorant Garamond, serif;
     color: #766161;
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
+    justify-content: center;
+    content: max-content;
 }
-#popular td {
-    border-collapse: collapse;
-    border-color: #F3EEE5;
+
+#available {
+    width: 75%;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    justify-content: center;
 }
 
 #popular img {
@@ -210,9 +222,14 @@ td {
     align-items: center;
 }
 
-/* OUR BOOKS*/
+/* BOOKSHELF */
 
 /*DONATIONS*/
+
+.shelf-img {
+    width: 300px;
+    height: auto;
+}
 
 #donations {
     display: flex;
@@ -221,6 +238,7 @@ td {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 #donations div {
     padding: 2rem;
     text-align: start;
@@ -253,59 +271,93 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding-bottom: 100px;
-}
-
-#footer {
-    position: fixed;
-    padding: 2rem;
-    bottom: 0;
-    height: 2rem;
-    font-size: 2rem;
-    width: 100%;
-    box-sizing: content-box;
+    padding-bottom: 1rem;
 }
 
 #social-media {
     text-align: center;
-    padding: 20px 0;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    width: 100%;
+    padding-top: 2rem;
 }
 
 #social-media i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 5%;
     color: #BB6464;
 }
 
 /*MEDIA QUERIES!!!*/
 
-/* MEDIA QUERY -> PHONE SCREENS (320 PX AND UP) ----------------------------------------*/
-@media screen and (min-width: 320px) {
-
-    
-    #hero {
-        width: 100%;
-    }
-
-    #home video {
-        width: 300px;
-        height: auto;
-    }
-
-    
-}
-}
-
-/* MEDIA QUERY -> PHONE SCREENS (768 PX AND UP) ----------------------------------------*/
+/* MEDIA QUERY -> MEDIUM SCREENS (768 PX AND UP) ----------------------------------------*/
 @media screen and (min-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        letter-spacing: 6px;
+    }
+
     #hero {
         width: 100%;
         align-items: center;
         justify-content: center;
     }
 
-    
+    #wrap-vid {
+        width: 300px;
+        height: 201px;
+        padding-top: 2rem;
+    }
+    #available {
+        column-count: 2;  
+    }
+    .shelf-img {
+        width: 600px;
+        height: auto;
+    }
+}
+
+/* MEDIA QUERY -> M-LARGE SCREENS (1024 PX AND UP) ----------------------------------------*/
+@media screen and (min-width: 1024px) {
+    #hero {
+        width: 100%;
+    }
+
+    nav {
+        letter-spacing: 1px;
+    }
+
+    #wrap-vid {
+        width: 500px;
+        height: 300px;
+        padding-top: 2rem;
+    }
+
+    .home img {
+        width: 700px;
+        height: auto;
+    }
+
+    .shelf-img {
+        width: 950px;
+        height: 600px;
+    }
+}
+
+/* MEDIA QUERY -> L SCREENS (1200 PX AND UP) ----------------------------------------*/
+@media screen and (min-width: 1200px) {
+    #wrap-vid {
+        width: 653px;
+        height: 376px;
+        padding-top: 2rem;
+    }
+    #available {
+        column-count: 3;  
+    }
+
+}
