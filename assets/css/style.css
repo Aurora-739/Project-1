@@ -131,7 +131,6 @@ main {
     color: #fafafa;
     padding-top: 2rem;
     text-align: center;
-    align-items: auto;
     flex-basis: 1rem;
     flex-grow: 1;
 }
@@ -201,7 +200,6 @@ td {
     font-size: 1.5rem;
     text-align: center;
     justify-content: center;
-    content: max-content;
 }
 
 #available {
@@ -232,7 +230,6 @@ td {
 #donations {
     display: flex;
     flex-wrap: wrap;
-    text-align: flex-start;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -240,7 +237,6 @@ td {
 #donations div {
     padding: 2rem;
     text-align: start;
-    align-items: auto;
     flex-basis: 1rem;
     flex-grow: 1;
 }
@@ -257,7 +253,6 @@ td {
 #favs div {
     padding: 2rem;
     text-align: end;
-    align-items: auto;
     flex-basis: 1rem;
     flex-grow: 1;
 }
