@@ -43,7 +43,7 @@ p {
 
 hr {
     color: #766161;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 li {
@@ -110,16 +110,9 @@ nav {
 main {
     /* MAKE MAIN ELEMENTS TAKE UP SPACE*/
     flex: 1 0 auto;
-    padding-top: 2rem;
 }
 
-/* THE HERO IMAGE*/
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/the-library.jpg") no-repeat center center/cover;
-    position: relative
-}
+/* HOME PAGE */
 
 .home {
     display: flex;
