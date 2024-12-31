@@ -28,8 +28,25 @@ Brenda's Books is an informative site design targeted to customers of the bookst
 ![image](https://github.com/user-attachments/assets/7da3ed82-262f-4711-b1a5-365f21d3e723)
 
 - Our Story Section
+  * The Our Story section is the first section on the home page. It has some text explaining the history, the vibe of the store and examples of events.
+  * This section pulls the user in and helps to create the homely and warm aesthetic that is evident in the bookshop.
+  * This section also includes a video that can be interacted with to play, pause, skip. The video is of a member of staff wrapping up books.
+  * This section is visually seperated from the rest of the page by its layout with the video on the right and the text on the left spanning the whole page on medium and large screens. On smaller screens the video acts to create a visual difference between the Our Story section and the Opening/Closing Times table.
+  * The text is in the same font as the naviation (The font is Cormorant Garamond, a serif font) to create a sense of fluidity and wholesomeness in the page.
+  * The text colour is a warm brown (#766161) which is the same as most of the non-navigation text for the rest of the pages. This is easy to see adn again contrasts nicely with the cream colour of the background (#F3EEE5).
+
+![image](https://github.com/user-attachments/assets/4adc0dad-46a2-4550-b135-81883c63719a)
+
 
 - Opening / Closing Times Table
+  * This table sits in the middle of the home page and dislays a list of opening and closing times for the week.
+  * The table has visibale lines to distinguish the cells from eachother and bold text for each of the days.
+  * The text at the headers of each cell is red (#BB6464) and slightly larger than the rest of the text in the table to show the user the importance.
+  * When hovered over the text in the cells changes from the usual brown (#766161) to the red (#BB6464) so that the user can see clearly where they are in the table.
+  * The text is in the same font as the naviation (The font is Cormorant Garamond, a serif font) to create a sense of fluidity and wholesomeness in the page.
+
+![image](https://github.com/user-attachments/assets/50fc8444-4da3-4331-874f-4fdc950c74f8)  
+
 
 - Our Location
 
