@@ -3,7 +3,7 @@
 Brenda's Books is an interactive site for people looking to find a local, family owned bookstore in the area of Exeter. The bookstore offers an enjoyable and cozy place to shop, work and join in on boook clubs and readings. 
 Brenda's Books is an informative site design targeted to customers of the bookstore and users of the site to come and find information such as: how to contact the bookstore, the history of the bookstore, the location of the store, popular books, recent donations opening and closing times and social media links.
 
-![image](https://github.com/user-attachments/assets/6e80dfa3-ef93-49ee-afcc-10d3f61d0b82)
+![image](https://github.com/user-attachments/assets/efb5f652-8b2c-481a-8f70-650f19d2780f)
 
 ## Features
 
