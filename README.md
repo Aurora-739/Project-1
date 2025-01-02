@@ -50,6 +50,7 @@ Brenda's Books is an informative site design targeted to customers of the bookst
 
 - Our Location
   * The Our Location section serves the purpose of giving the user more information about the bookstore. The website is for a place and so a loction and a map of where this place is is crucial for users of the site to be able to find the bookstore.
+  * The Our Location section is easy to find at the bottom of the Home webpage.
   * The Our Location section has a large image of a map with a pin for the location of the bookstore.
   * Above all of this content is an h2 title of "Our Location" which is in the regular brown (#766161).
   * Alongside the map is also a written out address with an address h3 title in brown (#766161). The address contains a link that when clicked on goes to a seperate page with the address in Google maps. (This is also in the brown colour but when hovered over on larger screens fades to a red and underline to demostrate it as a link).
@@ -57,6 +58,14 @@ Brenda's Books is an informative site design targeted to customers of the bookst
 ![image](https://github.com/user-attachments/assets/95bb82ad-a2da-4316-b95d-7deb7ef06853)
 
 - Contact Us
+  * The Contact Us section of the web page is on the Home page and is set on large screens parallel with the Our Location section and on smaller screens is set below it.
+  * The contact section has a snapppy title, engaging the users and encouraging them to contact the bookstore.
+  * The contact section contains the phone number and an email address (along with icons to visually appeal to the user and to make it easier to find).
+  * The contact secton's title is an h3 and in the brown (#766161).
+  * The contact section's text is the same colour as most of the text on the website to further the fluidity of the page.
+
+![image](https://github.com/user-attachments/assets/78c2f7c7-0465-46e2-bfcf-3abc708bdf22)
+
 
 - Social Media Links ~ Footer
 
