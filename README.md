@@ -44,6 +44,7 @@ Brenda's Books is an informative site design targeted to customers of the bookst
   * The text at the headers of each cell is red (#BB6464) and slightly larger than the rest of the text in the table to show the user the importance.
   * When hovered over the text in the cells changes from the usual brown (#766161) to the red (#BB6464) so that the user can see clearly where they are in the table.
   * The text is in the same font as the naviation (The font is Cormorant Garamond, a serif font) to create a sense of fluidity and wholesomeness in the page.
+  * There is alos a link in the navigation that sends the user to this section of the home page regardless of what page they are currently on.
 
 ![image](https://github.com/user-attachments/assets/50fc8444-4da3-4331-874f-4fdc950c74f8)  
 
@@ -63,13 +64,20 @@ Brenda's Books is an informative site design targeted to customers of the bookst
   * The contact section contains the phone number and an email address (along with icons to visually appeal to the user and to make it easier to find).
   * The contact secton's title is an h3 and in the brown (#766161).
   * The contact section's text is the same colour as most of the text on the website to further the fluidity of the page.
+  * There is also a link in the navigation that sends the user to this section of the home page regardless of what page they are currently on.
 
 ![image](https://github.com/user-attachments/assets/78c2f7c7-0465-46e2-bfcf-3abc708bdf22)
 
-
 - Social Media Links ~ Footer
+  * The footer of all the pages have 3 icons with a link each attached to them. The first icon is for Instagram, the next for Twitter and the last for Facebook.
+  * The links are all the red colour (#BB6464) to be consistent with the rest of the website.
+  * To visually sepreate the footer from the rest of the website, there is a line attached to it's top.
+  * The icons are equally seperated and centered on all screen sizes.
+
+![image](https://github.com/user-attachments/assets/e4a3c66f-a030-4afd-a412-bce3b34a972b)
 
 - Available Page
+  * The Available page can be acccessed from the navigation at the top of the page.
 
 - Bookshelf
 
