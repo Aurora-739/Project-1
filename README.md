@@ -76,10 +76,29 @@ Brenda's Books is an informative site design targeted to customers of the bookst
 
 ![image](https://github.com/user-attachments/assets/e4a3c66f-a030-4afd-a412-bce3b34a972b)
 
+
 - Available Page
-  * The Available page can be acccessed from the navigation at the top of the page.
+  * The Available page can be acccessed from the navigation at the top of all pages.
+  * The use of the available page is to demonstrate what kind of books the shop sells to entice the user to visit the store.
+  * The available page includes an h2 in the brown (#766161) descibing that this page is a list of some of the best sellers.
+  * The page has a book title (with an icon in the red #BB6464), an image of the book and a breief description/blurb.
+  * The book titles are also links that when hovered ver change to the red colour (#BB6464) and go underlinded and when clicked on send the user to a seperate page with more information on the book/author.
+  * The same as the other pages, the available page contains a logo at the top and the navigation just underneath as well as the footer with social media links at the bottom.
+
+![image](https://github.com/user-attachments/assets/ccfe5806-80fe-48c3-8205-5da4cd65c917)
+![image](https://github.com/user-attachments/assets/ab8d6aec-5fae-476d-9fdb-bdcf7606e9ee)
 
 - Bookshelf
+  * The Bookshelf page can be accessed for the navigation at the top of all the pages.
+  * The Bookshelf has two "shelves" or sections, the first being "This month's donations" and the second being "staff favourites".
+  * The donations title is an h2 and is the brown (#766161)
+  * The first section (or this month's donations) contains a brief resaon for why this section is here (books are donated by patrons of the store, oncemore furthering the connotaions of thw store being a small, warm place for people), a list of the books donated each with a link that when clicked takes them to more information on a seperate page about that book (when hovered transforms into the red (#BB6464) and becomes underlined), an icon (red #BB6464) and an image (parallel or below the text depending on screen size). (text on the left, image on the right on large screens)
+  * The second section (or staff favourites) contains a brief resaon for why this section is here (the staff want to share their books with the customers, oncemore creating aa wholsesome atmosphere that is desired), a list of the staff and their favourite books each with a link that when clicked takes them to more information on a seperate page about that book (when hovered transforms into the red (#BB6464) and becomes underlined), an icon (red #BB6464) and an image (parallel or below the text depending on screen size). (text on the right, image on the left on large screens)
+ 
+![image](https://github.com/user-attachments/assets/c126aae1-5c5a-44ac-b24a-7a6287c697bd)
+![image](https://github.com/user-attachments/assets/ba1c6c22-3a44-4d0f-acc3-34159a1657ff)
+![image](https://github.com/user-attachments/assets/1591cdca-fccc-4281-83aa-7e1812546fcc)
+
 
 - Newsletter
 
