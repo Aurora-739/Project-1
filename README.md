@@ -113,8 +113,13 @@ Brenda's Books is an interactive site for people looking to find a local, family
 ### Validator Testing 
 - HTML
   * No bugs were returned in the passing through the official W3C validator.
+  * Home: https://validator.w3.org/nu/#textarea
+  * Available: https://validator.w3.org/nu/#textarea
+  * Bookshelf: https://validator.w3.org/nu/#textarea
+  * Newsletter: https://validator.w3.org/nu/#textarea
 - CSS
   * No errors were found when passing through the official (Jigsaw) validator.
+  * CSS: https://jigsaw.w3.org/css-validator/validator
 - Accessibility
   * I confirm that the colours and fonts that I have used are easy to read and accessible by running it through Lighthouse in DevTools.
 ![image](https://github.com/user-attachments/assets/6ea35844-4fbc-4809-aa57-c594b0969401)
