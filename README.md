@@ -49,6 +49,14 @@ Brenda's Books is an informative site design targeted to customers of the bookst
 
 
 - Our Location
+  * The Our Location section serves the purpose of giving the user more information about the bookstore. The website is for a place and so a loction and a map of where this place is is crucial for users of the site to be able to find the bookstore.
+  * The Our Location section has a large image of a map with a pin for the location of the bookstore.
+  * Above all of this content is an h2 title of "Our Location" which is in the regular brown (#766161).
+  * Alongside the map is also a written out address with an address h3 title in brown (#766161). The address contains a link that when clicked on goes to a seperate page with the address in Google maps. (This is also in the brown colour but when hovered over on larger screens fades to a red and underline to demostrate it as a link).
+
+![image](https://github.com/user-attachments/assets/95bb82ad-a2da-4316-b95d-7deb7ef06853)
+
+- Contact Us
 
 - Social Media Links ~ Footer
 
