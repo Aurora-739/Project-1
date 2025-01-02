@@ -133,6 +133,7 @@ Brenda's Books is an interactive site for people looking to find a local, family
   * From the source section drop-down menu, select the main branch.
   * Save this option.
   * Go back to the main repository page, and on the right-hand side, click the link for deployments. Now all the deployments can be viewed here, and there is a link to the completed website.
+- Live link can be found here: https://aurora-739.github.io/Project-1/index.html
 
 ## Credits
 
