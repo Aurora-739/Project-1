@@ -65,6 +65,7 @@ Brenda's Books is an informative site design targeted to customers of the bookst
   * The contact secton's title is an h3 and in the brown (#766161).
   * The contact section's text is the same colour as most of the text on the website to further the fluidity of the page.
   * There is also a link in the navigation that sends the user to this section of the home page regardless of what page they are currently on.
+  * The font is Cormorant Garamond, a serif font.
 
 ![image](https://github.com/user-attachments/assets/78c2f7c7-0465-46e2-bfcf-3abc708bdf22)
 
@@ -73,6 +74,7 @@ Brenda's Books is an informative site design targeted to customers of the bookst
   * The links are all the red colour (#BB6464) to be consistent with the rest of the website.
   * To visually sepreate the footer from the rest of the website, there is a line attached to it's top.
   * The icons are equally seperated and centered on all screen sizes.
+  * The font is Cormorant Garamond, a serif font.
 
 ![image](https://github.com/user-attachments/assets/e4a3c66f-a030-4afd-a412-bce3b34a972b)
 
@@ -84,6 +86,7 @@ Brenda's Books is an informative site design targeted to customers of the bookst
   * The page has a book title (with an icon in the red #BB6464), an image of the book and a breief description/blurb.
   * The book titles are also links that when hovered ver change to the red colour (#BB6464) and go underlinded and when clicked on send the user to a seperate page with more information on the book/author.
   * The same as the other pages, the available page contains a logo at the top and the navigation just underneath as well as the footer with social media links at the bottom.
+  * The font is Cormorant Garamond, a serif font.
 
 ![image](https://github.com/user-attachments/assets/ccfe5806-80fe-48c3-8205-5da4cd65c917)
 ![image](https://github.com/user-attachments/assets/ab8d6aec-5fae-476d-9fdb-bdcf7606e9ee)
@@ -93,12 +96,23 @@ Brenda's Books is an informative site design targeted to customers of the bookst
   * The Bookshelf has two "shelves" or sections, the first being "This month's donations" and the second being "staff favourites".
   * The donations title is an h2 and is the brown (#766161)
   * The first section (or this month's donations) contains a brief resaon for why this section is here (books are donated by patrons of the store, oncemore furthering the connotaions of thw store being a small, warm place for people), a list of the books donated each with a link that when clicked takes them to more information on a seperate page about that book (when hovered transforms into the red (#BB6464) and becomes underlined), an icon (red #BB6464) and an image (parallel or below the text depending on screen size). (text on the left, image on the right on large screens)
-  * The second section (or staff favourites) contains a brief resaon for why this section is here (the staff want to share their books with the customers, oncemore creating aa wholsesome atmosphere that is desired), a list of the staff and their favourite books each with a link that when clicked takes them to more information on a seperate page about that book (when hovered transforms into the red (#BB6464) and becomes underlined), an icon (red #BB6464) and an image (parallel or below the text depending on screen size). (text on the right, image on the left on large screens)
- 
+  * The second section (or staff favourites) contains a brief resaon for why this section is here (the staff want to share their books with the customers, oncemore creating aa wholsesome atmosphere that is desired), a list of the staff and their favourite books each with a link that when clicked takes them to more information on a seperate page about that book (when hovered transforms into the red (#BB6464) and becomes underlined), an icon (red #BB6464) and an image (parallel or below the text depending on screen size). (text on the right, image on the left on large screens).
+  * The same as the other pages, the Booskhelf page contains a logo at the top and the navigation just underneath as well as the footer with social media links at the bottom.
+  * The font is Cormorant Garamond, a serif font.
+
 ![image](https://github.com/user-attachments/assets/c126aae1-5c5a-44ac-b24a-7a6287c697bd)
 ![image](https://github.com/user-attachments/assets/ba1c6c22-3a44-4d0f-acc3-34159a1657ff)
 ![image](https://github.com/user-attachments/assets/1591cdca-fccc-4281-83aa-7e1812546fcc)
 
 
 - Newsletter
+  * The Newsletter page contains an h2 title saying "sign up to our newsletter" and a sign up section for the newsletter.
+  * The sign up section has 3 boxes: first name, last name and email.
+  * The sign up section also ahs a button that when clicked on send displays the information sent to website on another page.
+  * the page also contains an image (parallel to sign up on larger screens, belwo on smaller screens).
+  * All text is brown (#766161) excpe the button which has cream text (#F3EEE5) on a red background (#BB6464)
+  * The same as the other pages, the Newsletter page contains a logo at the top and the navigation just underneath as well as the footer with social media links at the bottom.
+  * The font is Cormorant Garamond, a serif font.
+
+  
 
